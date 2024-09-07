@@ -1,0 +1,23 @@
+.page {
+  background-color: orange;
+}
+body {
+  background-color: brown;
+}
+
+@media all and (max-width: 767px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: red;
+  }
+}
+@media all and (min-width: 1024px) {
+  body {
+    background-color: yellow;
+  }
+}
